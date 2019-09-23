@@ -1,0 +1,16 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.17.1",
+    "pdfmake": "0.1.60"
+  },
+  "scripts": {
+    "start": "nodemon index.js 192.168.10.170 8080"
+  },
+  "devDependencies": {
+    "nodemon": "1.19.2"
+  }
+}
